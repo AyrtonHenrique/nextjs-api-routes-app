@@ -9,3 +9,25 @@
 .hello:hover {
   background: #ccc;
 }
+
+.containerCarsIndex{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.titleContainer{
+  text-align: center;
+}
+.contentContainer{
+  padding: 10px
+}
+
+.imageCar{
+  width: 200px;
+  display: block;
+}
+.imageCarTitle{
+
+}

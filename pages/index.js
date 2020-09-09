@@ -10,6 +10,7 @@ export default function Index() {
   if (!data) return <div>Loading...</div>
 
   return (
+
     <ul>
       {data.map((p, i) => (
         <Person key={i} person={p} />
