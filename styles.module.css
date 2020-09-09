@@ -16,17 +16,27 @@
   flex: 1;
   flex-wrap: wrap;
   flex-direction: row;
+  
 }
 .titleContainer{
   text-align: center;
 }
 .contentContainer{
-  padding: 10px
+  padding: 10px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  margin: 20px;
+}
+.contentContainer:hover{
+  transform: scale(1.2);
+  transition: all 0.3s linear;
 }
 
 .imageCar{
   width: 200px;
   display: block;
+  height: 150px;
+  padding: 5px;
 }
 .imageCarTitle{
 
